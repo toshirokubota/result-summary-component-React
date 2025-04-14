@@ -14,13 +14,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot (Desktop)](./screenshot.png)
-![Screenshot (Desktop) in active state](./screenshotActive.png)
+![Screenshot (Desktop)](./screenshotDesktop.png)
 ![Screenshot (Mobile)](./screenshotMobile.png)
 
 ### Links
 
-- Solution URL: [my solution](https://github.com/toshirokubota/result-summary-component)
+- Solution URL: [https://github.com/toshirokubota/result-summary-component-React](https://github.com/toshirokubota/result-summary-component-React)
 - Live Site URL: [live site of my solution](https://toshirokubota.github.io/result-summary-component/)
 
 ## My process
@@ -29,23 +28,16 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Grid
 - Flexbox
 - Mobile-first workflow
-The content of the web page is populated dynamically from a JSON data file (However, the current version has JSON data pasted inside <script> area.)
-
-### What I learned
-
-In this project, I employed a mobile-first workflow. I first designed the mobile version, then used media query for a larger screen. 
-
-I realized how hard it is to read a local static file (data.json) from my static web page. 
+- SCSS/SASS
+- React
 
 ### Continued development
 
-I have gotten somewhat better at controlling the layout of all the elements in the design. But I am still encounter cases where I am not sure why they show up in an unexpected way and how to fix it. So I need to keep working on it, eventually I will make it mine.
-
-I want to be more comfortable with flexbox patterns and understand when to use the layout. 
-
-I was able to populate the page with data.json, although I pasted the content of the file inside my script. I wanted to read it from a file, but I felt it was beyond the scope of this project. 
+This is my first project with React.js. I will keep practicing with it. 
+I did not separate custome components into separate files. Just being lazy. No excuse...
 
 ### Useful resources
 
