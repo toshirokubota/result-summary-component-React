@@ -47,7 +47,7 @@ main {
   background-color: hsl(var(--color-white));
 }
 
-.summary-section {
+.assessment-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,12 +55,12 @@ main {
   padding: 2rem;
   border-radius: 0 0 2rem 2rem;
 }
-.summary-section h1 {
+.assessment-section h1 {
   font-size: var(--fs-heading-M);
   font-weight: 700;
   color: hsl(var(--color-light-blue));
 }
-.summary-section h2 {
+.assessment-section h2 {
   display: block;
   background: linear-gradient(hsl(var(--color-gradient2A)), hsla(var(--color-gradient2B), 0.05));
   font-size: var(--fs-body);
@@ -70,21 +70,21 @@ main {
   border-radius: 50%;
   text-align: center;
 }
-.summary-section h2 span {
+.assessment-section h2 span {
   display: block;
   font-size: var(--fs-heading-XL);
   color: hsl(var(--color-white));
 }
-.summary-section h3 {
+.assessment-section h3 {
   font-size: var(--fs-heading-L);
   color: hsl(var(--color-white));
 }
-.summary-section p {
+.assessment-section p {
   text-align: center;
   font-size: var(--fs-body);
   color: hsl(var(--color-light-blue));
 }
-.summary-section * + * {
+.assessment-section * + * {
   margin-top: 1rem;
 }
 
@@ -93,6 +93,7 @@ main {
   flex-direction: column;
   width: 100%;
   padding: 2rem;
+  /* color settings and icon for each category */
 }
 .detail-section h1 {
   font-size: var(--fs-heading-M);
@@ -191,9 +192,13 @@ main {
     grid-template-rows: 1fr;
     border-radius: 2rem;
   }
-  .summary-section {
+  .assessment-section {
     border-radius: 2rem;
     height: 100%;
     align-self: stretch;
+    justify-content: space-around;
+  }
+  .detail-section {
+    justify-content: space-around;
   }
 }/*# sourceMappingURL=index.css.map */

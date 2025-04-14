@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 // import viteLogo from '/vite.svg'
 //import './App.css'
 
-function SummarySection({scores}) {
+function AssessmentSection({scores}) {
   const average = scores.reduce((acc, cur) => acc + cur.score, 0) / scores.length;
 
   const assess = (score) => {
@@ -33,7 +33,7 @@ function SummarySection({scores}) {
   const assessment = assess(average);
 
   return (
-    <section className="summary-section">
+    <section className="assessment-section">
       <h1>Your Result</h1>
       <h2><span>{average.toFixed(0)}</span> out of 100</h2>
       <h3>{assessment.summary}</h3>
@@ -55,11 +55,14 @@ function DetailSection({scores}) {
   return (
     <section className="detail-section">
       <h1>Summary</h1>
+      <div className="result-card-container">
       {
         scores.map(score =>
+        
           <ResultCard key={score.category} score={score}/>
         )
       }
+      </div>
       <button className="continue-button">Continue</button>
     </section>
   )
@@ -89,7 +92,7 @@ function App() {
 
   return (
     <MainContainer>
-      <SummarySection scores={scores}/>
+      <AssessmentSection scores={scores}/>
       <DetailSection scores={scores}/>
     </MainContainer>
   )
