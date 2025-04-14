@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/toshirokubota/result-summary-component-React](https://github.com/toshirokubota/result-summary-component-React)
-- Live Site URL: [live site of my solution](https://toshirokubota.github.io/result-summary-component/)
+- Live Site URL: [https://toshirokubota.github.io/result-summary-component-React/](https://toshirokubota.github.io/result-summary-component-React)
 
 ## My process
 
